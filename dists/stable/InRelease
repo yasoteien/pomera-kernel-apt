@@ -1,0 +1,34 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Architectures: armhf
+Codename: stable
+Components: main
+Date: Fri, 13 Nov 2026 11:13:47 +0000
+Description: Linux kernel for the Pomera DM250 (Japanese model)
+Label: pomera-kernel
+Origin: pomera-kernel
+Suite: stable
+MD5Sum:
+ 7c296e3b211e43c156165c1839a680a9            10483 main/binary-armhf/Packages
+ bb6ffe41ff3a45622172df5ee01a8db5             2828 main/binary-armhf/Packages.gz
+ cc1794f6d31f75b497a417eaac5ba3e3             2732 main/binary-armhf/Packages.xz
+SHA1:
+ febad45e49f15589e47f23a44d0f60c5a8da34a5            10483 main/binary-armhf/Packages
+ 186a934aee8aef38cce000cebb562bdb1e1442c7             2828 main/binary-armhf/Packages.gz
+ 843d8661078a4b58a9ed3aad66cd99820e5d0226             2732 main/binary-armhf/Packages.xz
+SHA256:
+ d6739dbc1e96d27b8c10eb143829cd782262500b124b54a2689e887e2d4b446a            10483 main/binary-armhf/Packages
+ b387c66e8ec15be6086922bc850b5b94ccfbfb8f5a354bdc432cf95a500ae16a             2828 main/binary-armhf/Packages.gz
+ bd4c29ff18de562b62d6086ad333060de0bba5fc18aa13ca4da9f2915e0b7dc1             2732 main/binary-armhf/Packages.xz
+SHA512:
+ 412a8a85120ae10cc5375fe52246d833b77b94310e303fad85f53b6a34fce024fe4dde0cb1f8e8a43877c821684e8c4375bb83dab661c62d277f740062108aac            10483 main/binary-armhf/Packages
+ 72f35a952172fd49c7f9966b1780b7f3876ce6000356fa2886c60ce38b038d685116b246c1f669093b254e3448eb4ada7953dc278f0603c0e60b18a97e6eb0d0             2828 main/binary-armhf/Packages.gz
+ c27710c7c214a9940b5bd6489fa3f88cb6bb0571a8e55492508858cd249022deffc3070e988ae60dbd9b00f28d1b0ff46dd1f8a2f50e8ca87258618d57e2b376             2732 main/binary-armhf/Packages.xz
+-----BEGIN PGP SIGNATURE-----
+
+iHUEARYKAB0WIQTpswf69DWSOiLipxCRELMRbspUZwUCavbw6wAKCRCRELMRbspU
+Zy1AAP0bk2nJJ1VciDoIdYkbuP0E0EKzVaxXSQL0VtvPdfQbMAD+LQwU0UomAIh2
+8NK52Be3T1oe4iVRXvPLvqamtcVCYAI=
+=Tf5K
+-----END PGP SIGNATURE-----

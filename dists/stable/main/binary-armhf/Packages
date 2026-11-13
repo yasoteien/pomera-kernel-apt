@@ -1,0 +1,210 @@
+Package: pomera-kernel-6.18.60-5jm
+Architecture: armhf
+Version: 6.18.60-5jm
+Priority: optional
+Section: kernel
+Maintainer: yasoteien <263659156+yasoteien@users.noreply.github.com>
+Installed-Size: 53600
+Depends: pomera-kernel-tools (>= 0.7), kmod
+Filename: pool/main/p/pomera-kernel-6.18.60-5jm/pomera-kernel-6.18.60-5jm_6.18.60-5jm_armhf.deb
+Size: 17555456
+MD5sum: a6373f220f246ff5999c407715ee5e6e
+SHA1: c6c0284a30890dc86db5ffedf97ad10b10f71a61
+SHA256: e11b0cea765ed6dd49b56c028ceec49b57866e9c7537748a2845b008c2570d47
+SHA512: 402c300aa6abe123dd3861904a37c4bb28f640074967ceb559ea3ee332597b7c0f44c399fff7b585f0bf37f739fe078d779d6f02c28955eb5a926ebd59003b22
+Homepage: https://github.com/yasoteien
+Description: Linux 6.18.60-5jm for the King Jim Pomera DM250
+ Linux 6.18 longterm with the DM250 patches (PL330, RK3128 LVDS, TC3589x
+ keypad, USB charger detection, RK818 charger and fuel gauge, hibernation
+ fixes). Ships the modules, the kernel in Rockchip KRNL format and the
+ matching device tree in RSCE format. Nothing is written to the SD card at
+ install time: the kernel is tried once on the next boot and confirmed by
+ pomera-kernel-tools.
+ .
+ Unofficial test release with no warranty; use at your own risk and copy
+ the SD card first. It has nothing to do with King Jim or the distributor
+ of the Debian image for the DM250. To go back: pomera-kernel rollback.
+
+Package: pomera-kernel-6.18.62-wk20261107
+Architecture: armhf
+Version: 6.18.62-wk20261107
+Priority: optional
+Section: kernel
+Maintainer: yasoteien <263659156+yasoteien@users.noreply.github.com>
+Installed-Size: 53636
+Depends: pomera-kernel-tools (>= 0.7), kmod
+Filename: pool/main/p/pomera-kernel-6.18.62-wk20261107/pomera-kernel-6.18.62-wk20261107_6.18.62-wk20261107_armhf.deb
+Size: 17567452
+MD5sum: d425da4778b280152cbb5146a653475e
+SHA1: d5ca7de6e2d2f17a6aaca381530d280504a5e5dd
+SHA256: 8da42c9c362b05ff0e4a7e5523ba6268701fdbd83b56670a7648103ae9c79665
+SHA512: c827cdd77a4945b335904121638f30de49b1312edc3fba4e910fb69e2167de19cbc56e5ce4771852dfb39386d75da8a55fe4560801a4acfa86589ac44b178c58
+Homepage: https://github.com/yasoteien
+Description: Linux 6.18.62-wk20261107 for the King Jim Pomera DM250
+ Linux 6.18 longterm with the DM250 patches (PL330, RK3128 LVDS, TC3589x
+ keypad, USB charger detection, RK818 charger and fuel gauge, hibernation
+ fixes). Ships the modules, the kernel in Rockchip KRNL format and the
+ matching device tree in RSCE format. Nothing is written to the SD card at
+ install time: the kernel is tried once on the next boot and confirmed by
+ pomera-kernel-tools.
+ .
+ Unofficial test release with no warranty; use at your own risk and copy
+ the SD card first. It has nothing to do with King Jim or the distributor
+ of the Debian image for the DM250. To go back: pomera-kernel rollback.
+
+Package: pomera-kernel-6.18.63-wk20261113
+Architecture: armhf
+Version: 6.18.63-wk20261113
+Priority: optional
+Section: kernel
+Maintainer: yasoteien <263659156+yasoteien@users.noreply.github.com>
+Installed-Size: 53640
+Depends: pomera-kernel-tools (>= 0.8), kmod
+Filename: pool/main/p/pomera-kernel-6.18.63-wk20261113/pomera-kernel-6.18.63-wk20261113_6.18.63-wk20261113_armhf.deb
+Size: 17572452
+MD5sum: c3fc6f2e1581bde983388b88e950fb45
+SHA1: 4306d2ab8c0719d99c61a96b3ab44baaf8e2cbf4
+SHA256: 46af9bb75c8cdcf4c4cb2fb35cdd3f417d5efa6160c43d2e5f19f01626f5c75f
+SHA512: 8f0c882b9132a90380862d80375c6345871ce8806bf2959caa50b8537f6f21c5e5cc8814e4d543f5be3102dbc2edfe1734cbf5c6b1a61596822842e6c5ae39c0
+Homepage: https://github.com/yasoteien
+Description: Linux 6.18.63-wk20261113 for the King Jim Pomera DM250
+ Linux 6.18 longterm with the DM250 patches (PL330, RK3128 LVDS, TC3589x
+ keypad, USB charger detection, RK818 charger and fuel gauge, hibernation
+ fixes). Ships the modules, the kernel in Rockchip KRNL format and the
+ matching device tree in RSCE format. Nothing is written to the SD card at
+ install time: the kernel is tried once on the next boot and confirmed by
+ pomera-kernel-tools.
+ .
+ Unofficial test release with no warranty; use at your own risk and copy
+ the SD card first. It has nothing to do with King Jim or the distributor
+ of the Debian image for the DM250. To go back: pomera-kernel rollback.
+
+Package: pomera-kernel-tools
+Architecture: all
+Version: 0.7
+Priority: optional
+Section: kernel
+Maintainer: yasoteien <263659156+yasoteien@users.noreply.github.com>
+Installed-Size: 128
+Depends: kexec-tools, python3, systemd, kmod
+Filename: pool/main/p/pomera-kernel-tools/pomera-kernel-tools_0.7_all.deb
+Size: 18064
+MD5sum: 80e36ade8c6bc824b0ca3e8fa9feea62
+SHA1: bd602657c132e9ca219ad5ac9adc632d2bfe1fdc
+SHA256: 18d2afc35c065d0b7c404c02ff2deec8b5cebd640e7fc7ed81c9b56217cb6c28
+SHA512: 5fd784eb87b9ffef2378c748c010d8cac3f7726ef9e35955d15769751d0865454d600508762a633a9bcc11b2a81f208fbc1518e426962db9c527c4cb4bb3339b
+Homepage: https://github.com/yasoteien
+Description: Pomera DM250 kernel trial-boot tools
+ Boots a newly installed kernel once with kexec and a hardware watchdog.
+ If the trial boot reaches a healthy state, the kernel (KRNL), the device
+ tree (RSCE) and the U-Boot of that version are written to the SD card as a
+ set: KRNL and RSCE go to the unused one of two slots (A/B), a small table
+ tells U-Boot which slot to boot, so a power cut while writing leaves either
+ the previous or the new set. Otherwise the watchdog resets the board and the
+ previous set boots again.
+ Also unloads the Wi-Fi and Bluetooth modules around hibernation.
+ .
+ Unofficial test release with no warranty; use at your own risk and copy
+ the SD card first. It has nothing to do with King Jim or the distributor
+ of the Debian image for the DM250. To go back: pomera-kernel rollback.
+
+Package: pomera-kernel-tools
+Architecture: all
+Version: 0.8
+Priority: optional
+Section: kernel
+Maintainer: yasoteien <263659156+yasoteien@users.noreply.github.com>
+Installed-Size: 144
+Depends: kexec-tools, python3, systemd, kmod
+Filename: pool/main/p/pomera-kernel-tools/pomera-kernel-tools_0.8_all.deb
+Size: 19060
+MD5sum: f3aebbd3190853544243aeebda1fad18
+SHA1: 4cb317d4054afa2f5ce3cec0623b299fd51cb5ef
+SHA256: b57b5f1a8bfd38d7ccdedac69139e3f0171384da3a688f69a798c73398ec641e
+SHA512: ade201d96688e5e759e0738c4245ab6c3439f294934ca0199facdaa3dc21b794edeedd7d059603c2103cb95f2f49498882ea3bf93881e0d6f8b2ccc91232606f
+Homepage: https://github.com/yasoteien
+Description: Pomera DM250 kernel trial-boot tools
+ Boots a newly installed kernel once with kexec and a hardware watchdog.
+ If the trial boot reaches a healthy state, the kernel (KRNL), the device
+ tree (RSCE) and the U-Boot of that version are written to the SD card as a
+ set: KRNL and RSCE go to the unused one of two slots (A/B), a small table
+ tells U-Boot which slot to boot, so a power cut while writing leaves either
+ the previous or the new set. Otherwise the watchdog resets the board and the
+ previous set boots again.
+ Also unloads the Wi-Fi and Bluetooth modules around hibernation, and keeps
+ USB hubs from autosuspending (the DM250's USB controller misses the remote
+ wakeup of a suspended hub, so devices plugged in later were not detected).
+ .
+ Unofficial test release with no warranty; use at your own risk and copy
+ the SD card first. It has nothing to do with King Jim or the distributor
+ of the Debian image for the DM250. To go back: pomera-kernel rollback.
+
+Package: pomera-kernel
+Architecture: all
+Version: 2026.11.04.3
+Priority: optional
+Section: kernel
+Maintainer: yasoteien <263659156+yasoteien@users.noreply.github.com>
+Installed-Size: 28
+Depends: pomera-kernel-6.18.60-5jm (>= 6.18.60-5jm)
+Filename: pool/main/p/pomera-kernel/pomera-kernel_2026.11.04.3_all.deb
+Size: 2024
+MD5sum: c01b14f5936a02e6208b12a0d71d4597
+SHA1: 09ab5ec06cd324e2c48d300455dc1d894fae8809
+SHA256: 4545ff0d815ed32608524a6484e9fab6acc638d535d1e8319f40dc4f6df219b7
+SHA512: 85d1ec495b403f9ab8b0e8f9642c54df43ab084ba93745ea485ee445458606c850c0a00522bd10b766909b44466568fa7b977d62dca42ac865f9c8583af6aa43
+Homepage: https://github.com/yasoteien
+Description: Latest Linux kernel for the King Jim Pomera DM250 (metapackage)
+ Depends on the newest pomera-kernel-<version> package so that
+ "apt upgrade" brings in new kernels.
+ .
+ Unofficial test release with no warranty; use at your own risk and copy
+ the SD card first. It has nothing to do with King Jim or the distributor
+ of the Debian image for the DM250. To go back: pomera-kernel rollback.
+
+Package: pomera-kernel
+Architecture: all
+Version: 2026.11.07
+Priority: optional
+Section: kernel
+Maintainer: yasoteien <263659156+yasoteien@users.noreply.github.com>
+Installed-Size: 28
+Depends: pomera-kernel-6.18.62-wk20261107 (>= 6.18.62-wk20261107)
+Filename: pool/main/p/pomera-kernel/pomera-kernel_2026.11.07_all.deb
+Size: 2024
+MD5sum: cf1ab7131ab9c35cf3897e320be17c0c
+SHA1: 456ca5c8a18baba043272a76512248061e135349
+SHA256: 269f834a3cc3998a85fa9c8cdce9280bb578035908fc3126c281d4886ede863f
+SHA512: 1f325f8cfb2c70f679483d15f1b1a77f2973b0b70c053ec699af9b6b1b0643402b8aefd4972276980e7a804d41db5e7f2ad87fecaf8dd76b427d14fcb79c510b
+Homepage: https://github.com/yasoteien
+Description: Latest Linux kernel for the King Jim Pomera DM250 (metapackage)
+ Depends on the newest pomera-kernel-<version> package so that
+ "apt upgrade" brings in new kernels.
+ .
+ Unofficial test release with no warranty; use at your own risk and copy
+ the SD card first. It has nothing to do with King Jim or the distributor
+ of the Debian image for the DM250. To go back: pomera-kernel rollback.
+
+Package: pomera-kernel
+Architecture: all
+Version: 2026.11.13
+Priority: optional
+Section: kernel
+Maintainer: yasoteien <263659156+yasoteien@users.noreply.github.com>
+Installed-Size: 28
+Depends: pomera-kernel-6.18.63-wk20261113 (>= 6.18.63-wk20261113)
+Filename: pool/main/p/pomera-kernel/pomera-kernel_2026.11.13_all.deb
+Size: 2032
+MD5sum: a4c09f9a6e1dc885a9d838857ab42d33
+SHA1: bc4cf391771f24b559ae55372a502fa01e76358d
+SHA256: d7eb532bd74b30ea1adb5ce727bc638361402b037a35ff5a98226f07b2fe2b47
+SHA512: dd226bc23c06b7c78dfe92e8ee701d21f516a73842e82638aaf4e9d541b730684a3fa8ca9b561a9fab82c307fbd4b514769e2c3e4a5b9c89422b2bb522b1221d
+Homepage: https://github.com/yasoteien
+Description: Latest Linux kernel for the King Jim Pomera DM250 (metapackage)
+ Depends on the newest pomera-kernel-<version> package so that
+ "apt upgrade" brings in new kernels.
+ .
+ Unofficial test release with no warranty; use at your own risk and copy
+ the SD card first. It has nothing to do with King Jim or the distributor
+ of the Debian image for the DM250. To go back: pomera-kernel rollback.
+
