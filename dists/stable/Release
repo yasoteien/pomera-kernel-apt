@@ -1,0 +1,24 @@
+Architectures: armhf
+Codename: stable
+Components: main
+Date: Wed, 18 Nov 2026 11:02:20 +0000
+Description: Linux kernel for the Pomera DM250 (Japanese model)
+Label: pomera-kernel
+Origin: pomera-kernel
+Suite: stable
+MD5Sum:
+ 036a7a7488a59473b45a0080baa4b813            10535 main/binary-armhf/Packages
+ 9c11f51940f6b040e850ff497e31570e             2823 main/binary-armhf/Packages.gz
+ 26f05322ddcceaa3e67b3de7015fb0d5             2716 main/binary-armhf/Packages.xz
+SHA1:
+ 7a637ba5e38c5a9032f6ad3ffb06f716a1e6fa99            10535 main/binary-armhf/Packages
+ 57888c2b9321e2edc889349caf3c1f24764ff573             2823 main/binary-armhf/Packages.gz
+ 73737921f5fdcda6d04a66d98f4e9cfb89144020             2716 main/binary-armhf/Packages.xz
+SHA256:
+ ada39e203540c7277429e9bb2d3e4b6d9314fe7909acae41469f2797caae2d0e            10535 main/binary-armhf/Packages
+ d14bb2df18098dfb8d51754b1d6f15418a83826137b9f019fc2e944d8beb28b7             2823 main/binary-armhf/Packages.gz
+ fb95b0839c354aa7b2e60ea7a9041ea1076e4dcafcdfe1a9c17277318337e7dc             2716 main/binary-armhf/Packages.xz
+SHA512:
+ dbca11e1803b958f93f22b89ee3276c390a343f4ddbc18dd2347261461b652bb746479eefe647ee4912100f130d5b5ad278e00eb8b7213637de25cf2f3ef6ac2            10535 main/binary-armhf/Packages
+ dc7c17242e11fea50b8512a071c7d82d5755a872ca414707c7ce3b55ac3e0b06657885f9cefed71da8c73881927cdcbb6e74d967da6039a7589857d6d1562217             2823 main/binary-armhf/Packages.gz
+ 5b6fe6a11afaabe464516316bab173bce9dfbf53d0eb5c1c0af807429231b66a6990b71b51dee510647dc0132f689ac38e2c16452500d20b09bbff02f6155aa8             2716 main/binary-armhf/Packages.xz
